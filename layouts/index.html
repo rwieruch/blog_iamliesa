@@ -23,6 +23,10 @@
       {{ partial "about.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.testimonials.enable }}
+      {{ partial "testimonials.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.clients_list.enable }}
       {{ partial "clients.html" . }}
     {{ end }}

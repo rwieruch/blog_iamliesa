@@ -1,0 +1,314 @@
+# Site settings
+baseurl = "https://iamliesa.com/"
+languageCode = "en-us"
+title = "I am Liesa"
+theme = "agency"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "I am Liesa"
+  description = "I am Liesa - social media enthusiast and strong believer in live and learn"
+
+  # Since this template is static, the contact form uses www.formspree.io as a
+  # proxy. The form makes a POST request to their servers to send the actual
+  # email. Visitors can send up to a 1000 emails each month for free.
+  #
+  # What you need to do for the setup?
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email yourself to confirm your account
+  # - click the confirm link in the email from www.formspree.io
+  # - you're done. Happy mailing!
+  email = "liesa.huppertz@gmail.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    # brand = "The Agency"
+    team = "About Me"
+    services = "Skills"
+    portfolio = "Portfolio"
+    about = "Vita"
+    contact = "Get In Touch"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      # url = "http://gohugo.io"
+      # name = "External link"
+      # weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "I am Liesa"
+    subtitle = "SOCIAL MEDIA ENTHUSIAST AND STRONG BELIEVER IN “LIVE AND LEARN”"
+    buttonText = "Tell me more"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "What I Offer"
+    subtitle = "A valuable selection of my skills."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-pencil"
+      title = "Content"
+      description = "A good story connects a company and its customer. I write engaging and on-brand content, which is well-grounded by research and data-analysis if needed."
+
+    [[params.services.row.list]]
+      icon = "fa-heart"
+      title = "Social Media"
+      description = "Social Media means more than scheduling a post once in a while. It's about community engagement, influencers, channel analysis and quality content."
+
+    [[params.services.row.list]]
+      icon = "fa-group"
+      title = "Influencer"
+      description = "Identifying influencers in a domain is a key aspect to growth. I know what to look for in an influencer to get the best coverage for your company."
+
+    [[params.services.row.list]]
+      icon = "fa-search"
+      title = "SEO"
+      description = "Good content has two purposes mainly: being found by Google and connecting company and customer. I make sure not only that your content is found online but also that it sounds great. "
+
+    [[params.services.row.list]]
+      icon = "fa-bullhorn"
+      title = "Public Relations"
+      description = "Journalist outreach, writing press releases and organizing events are just a few things I learned during my career in PR. Let me help you getting your company's name out there. "
+
+    [[params.services.row.list]]
+      icon = "fa-tree"
+      title = "Growth"
+      description = "One needs to have a large set of skills to grow a business. I think outside of the box to identify the most efficient and effective ways to help you grow your company."
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "An excerpt of my professional work."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+  # About section
+  [params.about]
+    enable = true
+    title = "Vita"
+    subtitle = "An excerpt of my past."
+    endpoint = "Be part<br>of my<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "australia.jpg"
+      date = "2008 - 2009"
+      title = "Adventures in Australia"
+      description = "Going to Australia after my graduation was perfect for personal growth. I picked up several jobs, travelled around the continent and had a frugal live."
+
+    [[params.about.events]]
+      img = "tu-dresden.jpg"
+      date = "2009 - 2015"
+      title = "Master of Arts"
+      description = "I graduated with a master of arts in applied media research. Primarily the subject statistics gave me a foundation to understand data sets and use them for storytelling."
+
+    [[params.about.events]]
+      img = "fashion-blog.jpg"
+      date = "2013"
+      title = "Kickstart a Fashion Blog"
+      description = "My field of study led me to start my [fashion blog](http://www.thefashionplaybook.de), which was the perfect outlet for improving my writing. Additionally it gave me a foundation for my professional work."
+
+    [[params.about.events]]
+      img = "saxony-medical.jpg"
+      date = "2012 - 2013"
+      title = "Saxony Medical Association"
+      description = "That's where I first interned in the field of Public Relations. I learned how to write press releases, managing a PR campaign and contributing content in a CMS."
+
+    [[params.about.events]]
+      img = "thailand.jpg"
+      date = "2013"
+      title = "Thailand"
+      description = "Thailand woke up my interest for Southeast Asia. I enjoy diving into different cultures, to learn about their life and to reflect it on my own life. It shouldn’t be my last Asian experience."
+
+    [[params.about.events]]
+      img = "wortweiss-agency.jpg"
+      date = "2013 - 2015"
+      title = "Online Marketing Agency Wortweiss"
+      description = "The first time I came in touch with self-employment in my field of expertise. In the [wortweiss agency](http://www.wortweiss.de/) I applied a lot of my learnings in SEO and content creation in a practical way."
+
+    [[params.about.events]]
+      img = "avelon.jpg"
+      date = "2014"
+      title = "Fashion Label Avelon"
+      description = "In Amsterdam I interned at the fashion label [Avelon](http://avelon.me/). I wanted to be as close as possible to the product. Understanding the mission behind the product makes it possible to write great content and press releases."
+
+    [[params.about.events]]
+      img = "vietnam.jpg"
+      date = "2015"
+      title = "Vietnam"
+      description = "Another great experience I don’t want to miss. I visited remote places in mountainous regions to make off-the-path experiences in Vietnam. To adapt do different lifestyles teaches you so much about yourself."
+
+    [[params.about.events]]
+      img = "startup.jpg"
+      date = "2015"
+      title = "Startup Culture at Wimdu"
+      description = "In Berlin I had to experience the startup culture. It was all about working smart to get stuff done. At [Wimdu](http://www.wimdu.com/) I was responsible for publications, cooperation management and PR campaigns."
+
+    [[params.about.events]]
+      img = "deluxe-distribution.jpg"
+      date = "2016"
+      title = "Agency Work"
+      description = "After working in a Startup, my goal was to experience the bustling life in an agency. In the fashion domain I worked in a full service agency to cover the PR and Social Media department."
+
+    [[params.about.events]]
+      img = "freelance.jpg"
+      date = "2013 - Today"
+      title = "Freelance"
+      description = "During the last years I completed several freelance jobs to continuously improve my skills in my field of expertise. Apart from quality content and SEO I also offer Social Media and Influencer Marketing."
+
+  # Team section
+  [params.team]
+    enable = true
+    title = "About Me"
+    subtitle = "Something you should know."
+    description = "Hi there, I am Liesa, a twenty-something girl living in Berlin. I’m a content creator, a social media and PR manager and a blogger. My natural curiosity helps me to always be on top of the latest social media trends, new tools and marketing techniques.<br><br>I’m a strong believer in living and learning. In my opinion that’s what furthers out of the box thinking and eventually makes you an expert in your field.<br><br>I think that expertise derives from two things mainly: ambition and passion. Both are characteristics that describe me very well. I just love what I do and that’s what makes it easy to always learn more, do more and get better and better.<br><br>By the way, I am a <strong>German</strong> native speaker but also comfortable in <strong>English</strong>."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    [params.team.members]
+      img = "me.jpg"
+      name = ""
+      position = ""
+      social = [
+        ["fa-linkedin", "https://de.linkedin.com/in/liesahuppertz"],
+        ["fa-twitter", "https://twitter.com/iamliesamaria"],
+        ["fa-instagram", "https://www.instagram.com/iamliesamaria"],
+        ["fa-envelope", "mailto:liesa.huppertz@gmail.com"]
+      ]
+
+  # Client section
+    [params.clients_list]
+      enable = false
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      [[params.clients]]
+        logo = "envato.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "designmodo.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "themeforest.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "creative-market.jpg"
+        link = "#"
+
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Get In Touch"
+    subtitle  = "I would love hearing from you. I am available for freelance contracts and remote work."
+    buttonText = "Send message"
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "© Liesa Huppertz"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "https://de.linkedin.com/in/liesahuppertz"
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/iamliesamaria"
+
+    [[params.footer.social]]
+      icon = "fa-instagram"
+      link = "https://www.instagram.com/iamliesamaria"
+
+    [[params.footer.social]]
+      icon = "fa-envelope"
+      link = "mailto:liesa.huppertz@gmail.com"
+
+    [[params.footer.quicklinks]]
+      text = "Fitness Blog"
+      link = "http://www.21moves.com"
+
+    [[params.footer.quicklinks]]
+      text = "Fashion Blog"
+      link = "http://www.thefashionplaybook.de"

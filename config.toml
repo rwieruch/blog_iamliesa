@@ -166,7 +166,7 @@ googleAnalytics = ""
       img = "fashion-blog.jpg"
       date = "2013"
       title = "Kickstart a Fashion Blog"
-      description = "My field of study led me to start my [fashion blog](http://www.thefashionplaybook.de), which was the perfect outlet for improving my writing. Additionally it gave me a foundation for my professional work."
+      description = "My field of study led me to start my [fashion blog](http://www.thefashionplaybook.de), which was the perfect outlet for improving my writing. Additionally, it gave me a foundation for my professional work."
 
     [[params.about.events]]
       img = "saxony-medical.jpg"
@@ -193,12 +193,6 @@ googleAnalytics = ""
       description = "In Amsterdam I interned at the fashion label [Avelon](http://avelon.me/). I wanted to be as close as possible to the product. Understanding the mission behind the product makes it possible to write great content and press releases."
 
     [[params.about.events]]
-      img = "vietnam.jpg"
-      date = "2015"
-      title = "Vietnam"
-      description = "Another great experience I don’t want to miss. I visited remote places in mountainous regions to make off-the-path experiences in Vietnam. To adapt do different lifestyles teaches you so much about yourself."
-
-    [[params.about.events]]
       img = "startup.jpg"
       date = "2015"
       title = "Startup Culture at Wimdu"
@@ -214,7 +208,7 @@ googleAnalytics = ""
       img = "freelance.jpg"
       date = "2013 - Today"
       title = "Freelance"
-      description = "During the last years I completed several freelance jobs to continuously improve my skills in my field of expertise. Apart from quality content and SEO I also offer Social Media and Influencer Marketing."
+      description = "During the last years, I have completed several freelance jobs to continuously improve my skills in my field of expertise. Apart from quality content and SEO I also offer Social Media and Influencer Marketing now as a full-time freelancer."
 
   # Team section
   [params.team]

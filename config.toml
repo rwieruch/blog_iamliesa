@@ -163,12 +163,6 @@ googleAnalytics = ""
       description = "I graduated with a master of arts in applied media research. Primarily the subject statistics gave me a foundation to understand data sets and use them for storytelling."
 
     [[params.vita.events]]
-      img = "fashion-blog.jpg"
-      date = "2013"
-      title = "Kickstart a Fashion Blog"
-      description = "My field of study led me to start my [fashion blog](http://www.thefashionplaybook.de), which was the perfect outlet for improving my writing. Additionally, it gave me a foundation for my professional work."
-
-    [[params.vita.events]]
       img = "saxony-medical.jpg"
       date = "2012 - 2013"
       title = "Saxony Medical Association"
@@ -233,41 +227,47 @@ googleAnalytics = ""
   # Testimonial section
   [params.testimonials]
     enable = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "What my Clients are saying"
+    subtitle = "Some of the clients I have been working with."
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     [[params.testimonials.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
+      img = "greenyogashop_logo.png"
+      name = "Elena Miebach"
+      position = "Greenyogashop"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        # ["fa-twitter", "#"],
+        # ["fa-facebook", "#"],
+        # ["fa-linkedin", "#"]
       ]
+      description = "Creative, passionate and professional. Liesa knows her business. She is easy to work with and delivers quality work, always before deadline.  She is a great support for all tasks related to content creation, copywriting and PR."
+      website = "https://www.greenyogashop.de/blog"
 
     [[params.testimonials.members]]
       img = "2.jpg"
       name = "Larry Parker"
       position = "Lead Marketer"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        # ["fa-twitter", "#"],
+        # ["fa-facebook", "#"],
+        # ["fa-linkedin", "#"]
       ]
+      description = "foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo "
+      website = "https://www.greenyogashop.de/blog"
 
     [[params.testimonials.members]]
       img = "3.jpg"
       name = "Diana Pertersen"
       position = "Lead Developer"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        # ["fa-twitter", "#"],
+        # ["fa-facebook", "#"],
+        # ["fa-linkedin", "#"]
       ]
+      description = "foo"
+      website = "https://www.greenyogashop.de/blog"
 
   # Client section
     [params.clients_list]
@@ -343,5 +343,5 @@ googleAnalytics = ""
       link = "http://www.21moves.com"
 
     [[params.footer.quicklinks]]
-      text = "Fashion Blog"
-      link = "http://www.thefashionplaybook.de"
+      text = "Remote Work Blog"
+      link = "https://www.wayfaringsociety.com/"

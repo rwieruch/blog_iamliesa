@@ -11,7 +11,9 @@
       {{ range .Site.Params.testimonials.members }}
         <div class="col-sm-4">
           <div class="team-member">
-            <img src="img/team/{{ .img }}" class="img-responsive img-circle" alt="">
+            <a href="{{ .website }}">
+              <img src="images/testimonials/{{ .img }}" class="img-responsive img-circle" alt="">
+            </a>
             <h4>{{ .name | markdownify }}</h4>
             <p class="text-muted">{{ .position | markdownify }}</p>
             <ul class="list-inline social-buttons">
@@ -19,6 +21,7 @@
                 <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
               {{ end }}
             </ul>
+            <p class="text-muted"><em>{{ .description | markdownify }}</em></p>
           </div>
         </div>
       {{ end }}

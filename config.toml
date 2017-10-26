@@ -226,7 +226,7 @@ googleAnalytics = ""
 
   # Testimonial section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "What my Clients are saying"
     subtitle = "Some of the clients I have been working with."
     description = ""

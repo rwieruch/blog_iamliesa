@@ -53,10 +53,10 @@ googleAnalytics = ""
   # Navigation
   [params.navigation]
     # brand = "The Agency"
-    team = "About Me"
+    about = "About Me"
     services = "Skills"
     portfolio = "Portfolio"
-    about = "Vita"
+    vita = "Vita"
     contact = "Get In Touch"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -140,8 +140,8 @@ googleAnalytics = ""
       buttonText = "Close project"
 
 
-  # About section
-  [params.about]
+  # Vita section
+  [params.vita]
     enable = true
     title = "Vita"
     subtitle = "An excerpt of my past."
@@ -150,68 +150,68 @@ googleAnalytics = ""
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "australia.jpg"
       date = "2008 - 2009"
       title = "Adventures in Australia"
       description = "Going to Australia after my graduation was perfect for personal growth. I picked up several jobs, travelled around the continent and had a frugal live."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "tu-dresden.jpg"
       date = "2009 - 2015"
       title = "Master of Arts"
       description = "I graduated with a master of arts in applied media research. Primarily the subject statistics gave me a foundation to understand data sets and use them for storytelling."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "fashion-blog.jpg"
       date = "2013"
       title = "Kickstart a Fashion Blog"
       description = "My field of study led me to start my [fashion blog](http://www.thefashionplaybook.de), which was the perfect outlet for improving my writing. Additionally, it gave me a foundation for my professional work."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "saxony-medical.jpg"
       date = "2012 - 2013"
       title = "Saxony Medical Association"
       description = "That's where I first interned in the field of Public Relations. I learned how to write press releases, managing a PR campaign and contributing content in a CMS."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "thailand.jpg"
       date = "2013"
       title = "Thailand"
       description = "Thailand woke up my interest for Southeast Asia. I enjoy diving into different cultures, to learn about their life and to reflect it on my own life. It shouldn’t be my last Asian experience."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "wortweiss-agency.jpg"
       date = "2013 - 2015"
       title = "Online Marketing Agency Wortweiss"
       description = "The first time I came in touch with self-employment in my field of expertise. In the [wortweiss agency](http://www.wortweiss.de/) I applied a lot of my learnings in SEO and content creation in a practical way."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "avelon.jpg"
       date = "2014"
       title = "Fashion Label Avelon"
       description = "In Amsterdam I interned at the fashion label [Avelon](http://avelon.me/). I wanted to be as close as possible to the product. Understanding the mission behind the product makes it possible to write great content and press releases."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "startup.jpg"
       date = "2015"
       title = "Startup Culture at Wimdu"
       description = "In Berlin I had to experience the startup culture. It was all about working smart to get stuff done. At [Wimdu](http://www.wimdu.com/) I was responsible for publications, cooperation management and PR campaigns."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "deluxe-distribution.jpg"
       date = "2016"
       title = "Agency Work"
       description = "After working in a Startup, my goal was to experience the bustling life in an agency. In the fashion domain I worked in a full service agency to cover the PR and Social Media department."
 
-    [[params.about.events]]
+    [[params.vita.events]]
       img = "freelance.jpg"
       date = "2013 - Today"
       title = "Freelance"
       description = "During the last years, I have completed several freelance jobs to continuously improve my skills in my field of expertise. Apart from quality content and SEO I also offer Social Media and Influencer Marketing now as a full-time freelancer."
 
-  # Team section
-  [params.team]
+  # About section
+  [params.about]
     enable = true
     title = "About Me"
     subtitle = "Something you should know."
@@ -219,7 +219,7 @@ googleAnalytics = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
-    [params.team.members]
+    [params.about.members]
       img = "me.jpg"
       name = ""
       position = ""

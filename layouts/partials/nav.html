@@ -24,9 +24,9 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.team.enable }}
+        {{ if .Site.Params.about.enable }}
           <li>
-            <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
+            <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
           </li>
         {{ end }}
 
@@ -42,9 +42,9 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.about.enable }}
+        {{ if .Site.Params.vita.enable }}
           <li>
-            <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
+            <a class="page-scroll" href="#vita">{{ with .Site.Params.navigation.vita }}{{ . | markdownify }}{{ end }}</a>
           </li>
         {{ end }}
 

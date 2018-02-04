@@ -8,22 +8,9 @@ theme = "agency"
 googleAnalytics = ""
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
   name = "I am Liesa"
   description = "I am Liesa - social media enthusiast and strong believer in live and learn"
 
-  # Since this template is static, the contact form uses www.formspree.io as a
-  # proxy. The form makes a POST request to their servers to send the actual
-  # email. Visitors can send up to a 1000 emails each month for free.
-  #
   # What you need to do for the setup?
   #
   # - set your email address under 'email' below
@@ -71,10 +58,9 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      # url = "http://gohugo.io"
-      # name = "External link"
-      # weight = 10
-
+      url = "https://www.wayfaringsociety.com"
+      name = "Blog"
+      weight = 10
 
   # Hero section
   [params.hero]
@@ -289,7 +275,7 @@ googleAnalytics = ""
 
       [[params.clients]]
         logo = "creative-market.jpg"
-        link = "#"   
+        link = "#"
 
 
   # Contact section

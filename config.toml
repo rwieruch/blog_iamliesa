@@ -125,7 +125,6 @@ googleAnalytics = ""
       category = "Category"
       buttonText = "Close project"
 
-
   # Vita section
   [params.vita]
     enable = true
@@ -331,3 +330,7 @@ googleAnalytics = ""
     [[params.footer.quicklinks]]
       text = "Remote Work Blog"
       link = "https://www.wayfaringsociety.com/"
+
+    [[params.footer.quicklinks]]
+      text = "Imprint"
+      link = "https://www.wayfaringsociety.com/imprint"

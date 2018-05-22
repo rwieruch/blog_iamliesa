@@ -204,8 +204,8 @@ googleAnalytics = ""
       position = ""
       social = [
         ["fa-linkedin", "https://de.linkedin.com/in/liesahuppertz"],
-        ["fa-twitter", "https://twitter.com/iamliesamaria"],
-        ["fa-instagram", "https://www.instagram.com/iamliesamaria"],
+        ["fa-twitter", "https://twitter.com/i_am_liesa"],
+        ["fa-instagram", "https://www.instagram.com/i_am_liesa"],
         ["fa-envelope", "mailto:liesa.huppertz@gmail.com"]
       ]
 
@@ -313,11 +313,11 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/iamliesamaria"
+      link = "https://twitter.com/i_am_liesa"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      link = "https://www.instagram.com/iamliesamaria"
+      link = "https://www.instagram.com/i_am_liesa"
 
     [[params.footer.social]]
       icon = "fa-envelope"
@@ -332,5 +332,5 @@ googleAnalytics = ""
       link = "https://www.wayfaringsociety.com/"
 
     [[params.footer.quicklinks]]
-      text = "Imprint"
-      link = "https://www.wayfaringsociety.com/imprint"
+      text = "Legal Notice"
+      link = "https://www.wayfaringsociety.com/legal"

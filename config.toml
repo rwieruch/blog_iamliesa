@@ -7,6 +7,12 @@ theme = "agency"
 # Enter your tracking code to enable Google analytics
 googleAnalytics = ""
 
+# GDPR
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    anonymizeIP = true
+
 [params]
   name = "I am Liesa"
   description = "I am Liesa - social media enthusiast and strong believer in live and learn"

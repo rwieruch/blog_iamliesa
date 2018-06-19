@@ -50,6 +50,7 @@ googleAnalytics = ""
     services = "Skills"
     portfolio = "Portfolio"
     vita = "Vita"
+    testimonials = "Testimonials"
     contact = "Get In Touch"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -217,7 +218,7 @@ googleAnalytics = ""
 
   # Testimonial section
   [params.testimonials]
-    enable = false
+    enable = true
     title = "What my Clients are saying"
     subtitle = "Some of the clients I have been working with."
     description = ""
@@ -236,29 +237,29 @@ googleAnalytics = ""
       description = "Creative, passionate and professional. Liesa knows her business. She is easy to work with and delivers quality work, always before deadline.  She is a great support for all tasks related to content creation, copywriting and PR."
       website = "https://www.greenyogashop.de/blog"
 
-    [[params.testimonials.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+          [[params.testimonials.members]]
+      img = "lieferheld.png"
+      name = "Maike"
+      position = "Head of Brand at Delivery Hero GmbH"
       social = [
         # ["fa-twitter", "#"],
         # ["fa-facebook", "#"],
         # ["fa-linkedin", "#"]
       ]
-      description = "foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo "
-      website = "https://www.greenyogashop.de/blog"
+      description = "As an external copywriter, Liesa is a great help to the entire team. She has adapted to our brand as well as to our tone of voice and audience extremely fast and has an excellent writing style. She is also able to nail the tone of voice for different online & offline channels, for Sales, and Social Media precisely and to the fullest satisfaction. Liesa is always reliable and does all the tasks quickly and carefully. The cooperation is always uncomplicated and super nice."
+      website = "https://www.lieferheld.de/"
 
     [[params.testimonials.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      img = "gymondo.png"
+      name = "Caro"
+      position = "Head of Content at Gymondo"
       social = [
         # ["fa-twitter", "#"],
         # ["fa-facebook", "#"],
         # ["fa-linkedin", "#"]
       ]
-      description = "foo"
-      website = "https://www.greenyogashop.de/blog"
+      description = "As an external writer, Liesa fits in very well with our brand and target group. She has a natural, modern writing style and writes well-researched blog posts for our online magazine. Working together is productive and enjoyable: Liesa is fast, careful, reliable and totally nice."
+      website = "https://www.gymondo.de/magazin/author/liesa-huppertz"
 
   # Client section
     [params.clients_list]

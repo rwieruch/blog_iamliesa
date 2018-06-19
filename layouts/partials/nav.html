@@ -48,6 +48,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.vita.enable }}
+          <li>
+            <a class="page-scroll" href="#testimonials">{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.contact.enable }}
           <li>
             <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</a>
